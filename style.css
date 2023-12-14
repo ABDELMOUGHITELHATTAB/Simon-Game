@@ -1,0 +1,85 @@
+body {
+    text-align: center;
+    background-image: linear-gradient(90deg, rgba(24, 247, 27, 1) 29%, rgba(247, 239, 24, 1) 95%);
+  }
+  
+  #level-title {
+    
+    font-size:4.7rem;
+    margin:  5%;
+   color: #2e4a00;
+  }
+  
+  .container {
+    display: block;
+    width: 50%;
+    margin: auto;
+  
+  }
+  
+  .btn {
+    margin: 25px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+  }
+  
+  .game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+  
+  .red {
+    background-image: linear-gradient(90deg, rgba(229, 255, 36, 1) 15%, rgba(115, 138, 0, 1) 86%);
+  }
+  
+  .green {
+    background-image: linear-gradient(90deg, rgba(0, 30, 255, 1) 15%, rgba(4, 0, 61, 1) 86%);
+  }
+  
+  .blue {
+    background-image: linear-gradient(90deg, rgba(38, 173, 0, 1) 16%, rgba(0, 112, 2, 1) 83%);
+  }
+  
+  .yellow {
+    background-image: linear-gradient(90deg, rgba(255, 123, 0, 1) 15%, rgba(77, 41, 0, 1) 87%);
+  }
+  
+  .pressed {
+    box-shadow: 0 0 20px white;
+    background-color: rgb(109, 109, 109);
+  }
+ 
+
+a{
+    color: rgb(49, 10, 10);
+    text-decoration: none;
+}
+.btnc {
+    margin: auto;
+font-size: 1.2rem;
+padding: 1rem 2.5rem;
+border: none;
+outline: none;
+border-radius: 0.4rem;
+cursor: pointer;
+text-transform: uppercase;
+background-image: linear-gradient(90deg, rgba(24, 247, 27, 1) 29%, rgba(247, 239, 24, 1) 95%);
+color: rgb(234, 234, 234);
+font-weight: 700;
+transition: 0.6s;
+box-shadow: 0px 0px 60px #2e4a00;
+-webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+
+.btnc:active {
+scale: 0.92;
+}
+
+.btnc:hover {
+background: rgb(2,29,78);
+background-image: linear-gradient(90deg, rgba(250, 5, 5, 1) 17%, rgba(255, 149, 0, 1) 84%);
+color: rgb(4, 4, 38);
+}
